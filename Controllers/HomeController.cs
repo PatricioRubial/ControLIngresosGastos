@@ -1,8 +1,8 @@
-﻿using ControLIngresosGastos.Models;
+﻿using ControLIngresosGasto.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ControLIngresosGastos.Controllers
+namespace ControLIngresosGasto.Controllers
 {
     public class HomeController : Controller
     {

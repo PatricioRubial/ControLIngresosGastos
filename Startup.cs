@@ -1,4 +1,4 @@
-﻿using ControLIngresosGastos.Data;
+﻿using ControLIngresosGasto.Data;
 using Microsoft.EntityFrameworkCore;
 
 public class Startup

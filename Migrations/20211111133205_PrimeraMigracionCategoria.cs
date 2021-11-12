@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace ControLIngresosGastos.Migrations
+namespace ControLIngresosGasto.Migrations
 {
     public partial class PrimeraMigracionCategoria : Migration
     {

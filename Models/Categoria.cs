@@ -1,11 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 
-namespace ControLIngresosGastos.Models
+namespace ControLIngresosGasto.Models
 {
     public class Categoria
 
-    {[Key]
+    {
+        [Key]
         public int Id { get; set; }
 
         [Required]
@@ -20,10 +21,7 @@ namespace ControLIngresosGastos.Models
         public string Tipo { get; set; } //IN ingreso Ga Gasto
 
         public bool Estado { get; set; } // true , False
-
-
-    }
-             
+    }         
 }
 
 

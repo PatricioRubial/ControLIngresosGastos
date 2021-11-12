@@ -1,4 +1,4 @@
-namespace ControLIngresosGastos.Models
+namespace ControLIngresosGasto.Models
 {
     public class ErrorViewModel
     {

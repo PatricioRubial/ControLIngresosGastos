@@ -1,9 +1,9 @@
-﻿using ControLIngresosGastos.Models;
+﻿using ControLIngresosGasto.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ControLIngresosGastos.Data
+namespace ControLIngresosGasto.Data
 {
-    public class ApplicationDbContext :DbContext
+    public class ApplicationDbContext : DbContext
     {
 
 
@@ -14,6 +14,6 @@ namespace ControLIngresosGastos.Data
         }
 
         public DbSet<Categoria> Categorias { get; set; }
-
+        public DbSet<IngresoGasto> IngresoGasto { get; set; }
     }
 }

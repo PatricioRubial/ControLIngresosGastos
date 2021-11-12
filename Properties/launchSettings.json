@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "ControLIngresosGastos": {
+    "ControLIngresosGasto": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
